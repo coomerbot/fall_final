@@ -4,7 +4,9 @@ GAN被認為極難訓練的根本原因是模型的架構會產生一些數學�
 
 我們知道，$`G`$ 的loss $`J_G`$ 可以寫成：
 
-$$`J_G= \mathbb{E}_{x \sim p_g}[ \log(1 - D(x) ]`$$
+```math
+J_G= \mathbb{E}_{x \sim p_g}[ \log(1 - D(x) ]
+```
 
 或：
 
