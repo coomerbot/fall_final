@@ -28,4 +28,4 @@ $$=\mathbb{E}_{x\sim p_g}[\log(1-D^*_G(x))]-\mathbb{E}_{x\sim p_g}[\log(D^*_G(x)
 
 因此，得到第二種寫法其實是：
 
-$$J_G=-\mathbb{E}_{x\sim p_g}[\log(D^*_G(x))]=D_{\text{KL}}(p_{g}||p_{
+$$J_G=-\mathbb{E}_{x\sim p_g}[\log(D^*_G(x))]=$$
